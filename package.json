@@ -1,14 +1,14 @@
 {
   "name": "f3-noop",
   "version": "1.0.0",
-  "main": "server.ts",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.ts",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "f3-public-express": "https://github.com/desw0lf/f3-public-express.git"
+    "f3-public-express": "https://github.com/desw0lf/f3-public-express.git#242b02e9a5334ad5af2ed0a56fc3020f43286a14"
   },
   "author": "deswolf",
   "license": "ISC",
