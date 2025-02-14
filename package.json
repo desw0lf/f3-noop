@@ -1,0 +1,14 @@
+{
+  "name": "f3-noop",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "f3-public-express": "https://github.com/desw0lf/f3-public-express.git"
+  },
+  "author": "deswolf",
+  "license": "ISC",
+  "description": ""
+}
