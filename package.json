@@ -2,6 +2,7 @@
   "name": "f3-noop",
   "version": "1.0.0",
   "main": "server.ts",
+  "type": "module",
   "scripts": {
     "start": "node server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
