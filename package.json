@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "f3-public-express": "https://github.com/desw0lf/f3-public-express.git#12cfb1aefd04d2341c1b70d87054f4db68f54416"
+    "f3-public-express": "https://github.com/desw0lf/f3-public-express.git#0850df6fd2fc37cf789b291e640873577f82f6fd"
   },
   "author": "deswolf",
   "license": "ISC",
