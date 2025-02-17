@@ -1,4 +1,4 @@
-import { FilenPublicExpress, Logger } from "f3-public-express";
+import { FilenPublicExpress, Logger } from "filen-public-express";
 // import { ips } from "./ips.js";
 
 const { FILEN_EMAIL, FILEN_PASSWORD } = process.env;
