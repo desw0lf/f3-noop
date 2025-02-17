@@ -1,5 +1,5 @@
-import { F3PublicExpress } from "f3-public-express";
-import { ips } from "./ips.js";
+import { F3PublicExpress, Logger } from "f3-public-express";
+// import { ips } from "./ips.js";
 
 const { FILEN_EMAIL, FILEN_PASSWORD } = process.env;
 
@@ -11,8 +11,9 @@ const credentials = {
 const server = new F3PublicExpress({
   user: { sdkConfig: credentials },
   config: {
-    expressTrustProxy: ["loopback", ...ips],
-  }
+    expressTrustProxy: ["loopback"],
+  },
+  logger: { instance: Logger }
 });
 
 await server.start();
