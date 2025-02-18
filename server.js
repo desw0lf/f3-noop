@@ -10,9 +10,6 @@ const credentials = {
 
 const server = new FilenPublicExpress({
   user: { sdkConfig: credentials },
-  config: {
-    expressTrustProxy: ["loopback"],
-  },
   logger: { instance: Logger }
 });
 
