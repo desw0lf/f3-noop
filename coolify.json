@@ -1,0 +1,9 @@
+{
+  "$schema": "https://cdn.coollabs.io/coolify/coolify.schema.json",
+  "build": {
+    "build_pack": "nixpacks"
+  },
+  "persistent_storages": [
+    { "host_path": "/var/log/filen-public-server", "mount_path": "/app/log/filen-public-server" }
+  ]
+}
