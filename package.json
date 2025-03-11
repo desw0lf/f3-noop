@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "filen-public-express": "1.0.6"
+    "filen-public-express": "1.0.7"
   },
   "author": "deswolf",
   "license": "ISC",
