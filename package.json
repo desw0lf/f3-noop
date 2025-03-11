@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "filen-public-express": "^1.0.5"
+    "filen-public-express": "https://github.com/desw0lf/filen-public-express.git#c1dc1523b84bb89038a6406bf1358d642738e72c"
   },
   "author": "deswolf",
   "license": "ISC",
